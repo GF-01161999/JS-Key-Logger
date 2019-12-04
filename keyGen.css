@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+
+
+body {
+    background: rgb(145, 171, 226);
+    font-family: 'Yeon Sung', cursive;
+    margin: 0;
+} 
+
+header{ 
+    color: wheat;
+    background: url(water.jpeg), linear-gradient(to right, rgba(109, 96, 180), rgba(255, 255, 255, 0));
+    padding: 60px;
+}
+h1{ 
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
+#key-info{ 
+    font-size: 30px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+} 
+
+#key-code{ 
+    display: block;
+    flex-wrap: wrap;
+} 
+
+#keycode-body{
+    padding-top: 10px;
+    align-self: center;
+    margin: 0;
+}
+
+#pressed-key{
+    display: block;
+    flex-wrap: wrap;
+} 
+
+#pressedKey-body{
+    padding-top: 10px;
+}
+
+#key-id{
+    display: block;
+    flex-wrap: wrap;
+} 
+
+#keyId-body{ 
+    padding-top: 10px;
+}
